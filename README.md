@@ -4,7 +4,7 @@
         - [Preface](#preface)
         - [1. Getting Set Up](#1-getting-set-up)
         - [2. Node Fundamentals – Part 1](#2-node-fundamentals--part-1)
-        - [3. Node Fundamentals – Part 2](#3-node-fundamentals--part-2)
+        - [3. Node Fundamentals – Part 2 (***CURRENT***)](#3-node-fundamentals--part-2-current)
         - [4. Node Fundamentals – Part 3](#4-node-fundamentals--part-3)
         - [5. Basics of Asynchronous Programming in Node.js](#5-basics-of-asynchronous-programming-in-nodejs)
         - [6. Callbacks in Asynchronous Programming](#6-callbacks-in-asynchronous-programming)
@@ -80,7 +80,7 @@
 - [x] Getting the specific note information
 - [x] Summary
 <br/>[Go Up](#learning-nodejs-development)
-### 3. Node Fundamentals – Part 2
+### 3. Node Fundamentals – Part 2 (***CURRENT***)
 - [x] yargs
 - [x] Installing yargs
 - [x] Running yargs
