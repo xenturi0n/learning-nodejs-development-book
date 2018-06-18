@@ -1,0 +1,376 @@
+# Learning Node.js Development
+- [Learning Node.js Development](#learning-nodejs-development)
+    - [Table of Contents](#table-of-contents)
+        - [Preface](#preface)
+        - [1. Getting Set Up](#1-getting-set-up)
+        - [2. Node Fundamentals – Part 1](#2-node-fundamentals--part-1)
+        - [3. Node Fundamentals – Part 2](#3-node-fundamentals--part-2)
+        - [4. Node Fundamentals – Part 3](#4-node-fundamentals--part-3)
+        - [5. Basics of Asynchronous Programming in Node.js](#5-basics-of-asynchronous-programming-in-nodejs)
+        - [6. Callbacks in Asynchronous Programming](#6-callbacks-in-asynchronous-programming)
+        - [7. Promises in Asynchronous Programming](#7-promises-in-asynchronous-programming)
+        - [8. Web Servers in Node](#8-web-servers-in-node)
+        - [9. Deploying Applications to Web](#9-deploying-applications-to-web)
+        - [10. Testing the Node Applications – Part 1](#10-testing-the-node-applications--part-1)
+        - [11. Testing the Node Applications – Part 2](#11-testing-the-node-applications--part-2)
+- [Anotaciones](#anotaciones)
+
+## Table of Contents
+### Preface
+- [x] What this book covers
+- [x] Who this book is for
+- [x] To get the most out of this book
+- [x] Download the example code files
+- [x] Conventions used
+- [x] Get in touch
+- [x] Reviews
+[Go Up](#learning-nodejs-development)
+### 1. Getting Set Up
+- [x] Node.js installation
+- [x] Node.js version confirmation
+- [x] Installing Node
+- [x] Verifying installation
+- [x] What is Node?
+- [x] Differences between JavaScript coding using Node and in the browser
+- [x] Why use Node
+- [x] Blocking and non-blocking software development
+- [x] The working of blocking I/O
+- [x] The working non-blocking I/O
+- [x] Blocking and non-blocking examples using Terminal
+- [x] Node community – problem solving open source libraries
+- [x] Different text editors for node applications
+- [x] Hello World – creating and running the first Node app
+- [x] Creating the Node application
+- [x] Running the Node application
+- [x] Summary
+[Go Up](#learning-nodejs-development)
+### 2. Node Fundamentals – Part 1
+- [x] Module basics
+- [x] Using case for require()
+- [x] Initialization of an application
+- [x] The built-in module to use require()
+- [x] Creating and appending files in the File System module
+- [x] The OS module in require()
+- [x] Concatenating user.username
+- [x] Using template strings
+- [x] Require own files
+- [x] Making a new file to load other files
+- [x] Exporting files from note.js to use in app.js
+- [x] A simple example of the working of the exports object
+- [x] Exporting the functions
+- [x] Exercise – adding a new function to the export object
+- [x] Solution to the exercise
+- [x] Third-party modules
+- [x] Creating projects using npm modules
+- [x] Installing the lodash module in our app
+- [x] Installation of lodash
+- [x] Using the utilities of lodash
+- [x] Using the _.isString utility
+- [x] Using _.uniq
+- [x] The node_modules folder
+- [x] Global modules
+- [x] Installing the nodemon module
+- [x] Executing nodemon
+- [x] Getting input
+- [x] Getting input from the user inside the command line
+- [x] Accessing the command-line argument for the notes application
+- [x] Adding if/else statements
+- [x] Exercise – adding two else if clauses to an if block
+- [x] Solution to the exercise
+- [x] Getting the specific note information
+- [x] Summary
+[Go Up](#learning-nodejs-development)
+### 3. Node Fundamentals – Part 2
+- [x] yargs
+- [x] Installing yargs
+- [x] Running yargs
+- [x] Working with the add command *****`NOTA: pag.233 18/06/208 01:02 progreso es hasta aqui, no hay dudas por el momento hasta este punto, aprendi markdown para hacer este archivo readme`*****
+- [ ] Working with the list command
+- [ ] The read command
+- [ ] Dealing with the errors in parsing commands
+- [ ] The remove command
+- [ ] Fetching command
+- [ ] JSON
+- [ ] Converting objects into strings
+- [ ] Defining a string and using in app as an object
+- [ ] Converting a string back to an object
+- [ ] Storing the string in a file
+- [ ] Writing the file in the playground folder
+- [ ] Reading out the content in the file
+- [ ] Adding and saving notes
+- [ ] Adding notes
+- [ ] Adding notes to the notes array
+- [ ] Fetching new notes
+- [ ] Trying and catching code block
+- [ ] Making the title unique
+- [ ] Refactoring
+- [ ] Moving functionality into individual functions
+- [ ] Working with fetchNotes
+- [ ] Working with saveNotes
+- [ ] Testing the functionality
+- [ ] Summary
+[Go Up](#learning-nodejs-development)
+### 4. Node Fundamentals – Part 3
+- [ ] Removing a note
+- [ ] Using the removeNote function
+- [ ] Printing a message of removing notes
+- [ ] Reading note
+- [ ] Using the getNote function
+- [ ] Running the getNote function
+- [ ] The DRY principle
+- [ ] Using the logNote function
+- [ ] Debugging
+- [ ] Executing a program in debug mode
+- [ ] Working with debugging
+- [ ] Using debugger inside the notes application
+- [ ] Listing notes
+- [ ] Using the getAll function
+- [ ] Advanced yargs
+- [ ] Using chaining syntax on yargs
+- [ ] Calling the .help command
+- [ ] Adding the options object
+- [ ] Adding the title
+- [ ] Adding the body
+- [ ] Adding support to the read and remove commands
+- [ ] Adding the titleOption and bodyOption variables
+- [ ] Testing the remove command
+- [ ] Arrow functions
+- [ ] Using the arrow function
+- [ ] Exploring the difference between regular and arrow functions
+- [ ] Exploring the arguments array
+- [ ] Summary
+[Go Up](#learning-nodejs-development)
+### 5. Basics of Asynchronous Programming in Node.js
+- [ ] The basic concept of asynchronous program
+- [ ] Illustrating the async programming model
+- [ ] Call stack and event loop
+- [ ] A synchronous program example
+- [ ] The call stack
+- [ ] Running the synchronous program
+- [ ] A complex synchronous program example
+- [ ] An async program example
+- [ ] The Node API in async programming
+- [ ] The callback queue in async programming
+- [ ] The event loop
+- [ ] Running the async code
+- [ ] Callback functions and APIs
+- [ ] The callback function
+- [ ] Creating the callback function
+- [ ] Running the callback function
+- [ ] Simulating delay using setTimeout
+- [ ] Making request to Geolocation API
+- [ ] Using Google Maps API data in our code
+- [ ] Installing the request package
+- [ ] Using request as a function
+- [ ] Running the request
+- [ ] Pretty printing objects
+- [ ] Using the body argument
+- [ ] Making up of the HTTPS requests
+- [ ] The response object
+- [ ] The error argument
+- [ ] Printing data from the body object
+- [ ] Printing the formatted address
+- [ ] Printing latitude and longitude
+- [ ] Summary
+[Go Up](#learning-nodejs-development)
+### 6. Callbacks in Asynchronous Programming
+- [ ] Encoding user input
+- [ ] Installing yargs
+- [ ] Configuring yargs
+- [ ] Printing the address to screen
+- [ ] Encoding and decoding the strings
+- [ ] Encoding URI component
+- [ ] Decoding URI component
+- [ ] Pulling the address out of argv
+- [ ] Callback errors
+- [ ] Checking error in Google API request
+- [ ] Adding the if statement for callback errors
+- [ ] Adding if else statement to check body status property
+- [ ] Testing the body status property
+- [ ] Abstracting callbacks
+- [ ] Refactoring app.js and code into geocode.js file
+- [ ] Working on request statement
+- [ ] Creating geocode file
+- [ ] Adding callback function to geocodeAddress
+- [ ] Setting up the function in geocodeAddress function in app.js
+- [ ] Implementing the callback function in geocode.js file
+- [ ] Testing the callback function in geocode.js file
+- [ ] Wiring up weather search
+- [ ] Exploring working of API in the browser
+- [ ] Exploring the actual URL for code
+- [ ] Making a request for the weather app using the static URL
+- [ ] Error handling in the the callback function
+- [ ] Another way of error handling
+- [ ] Testing the error handling in callback
+- [ ] Chaining callbacks together
+- [ ] Refactoring our request call in weather.js file
+- [ ] Defining the new function getWeather in weather file
+- [ ] Providing weather directory in app.js
+- [ ] Passing the arguments in the getWeather function
+- [ ] Printing errorMessage in the getWeather function
+- [ ] Implementing getWeather callback inside weather.js file
+- [ ] Adding dynamic latitude and longitude
+- [ ] Changing console.log calls into callback calls
+- [ ] Chaining the geocodeAddress and getWeather callbacks together
+- [ ] Moving getWeather call into geocodeAddress function
+- [ ] Replacing static coordinates with dynamic coordinates
+- [ ] Testing the chaining of callbacks
+- [ ] Summary
+[Go Up](#learning-nodejs-development)
+### 7. Promises in Asynchronous Programming
+- [ ] Introduction to ES6 promises
+- [ ] Creating an example promise
+- [ ] Calling the promise method then
+- [ ] Running the promise example in Terminal
+- [ ] Error handling in promises
+- [ ] Merits of promises
+- [ ] Advanced promises
+- [ ] Providing input to promises
+- [ ] Returning the promises
+- [ ] Promise chaining
+- [ ] Error handling in promises chaining
+- [ ] The catch method
+- [ ] The request library in promises
+- [ ] Testing the request library
+- [ ] Weather app with promises
+- [ ] Fetching weather app code from the app.js file
+- [ ] Axios documentations
+- [ ] Installing axios
+- [ ] Making calls in the app-promise file
+- [ ] Making axios request
+- [ ] Error handling in axios request
+- [ ] Error handling with ZERO_RESULT body status
+- [ ] Generating the weather URL
+- [ ] Chaining the promise calls
+- [ ] Summary
+[Go Up](#learning-nodejs-development)
+### 8. Web Servers in Node
+- [ ] Introducing Express
+- [ ] Configuring Express
+- [ ] Express docs website
+- [ ] Installing Express
+- [ ] Creating an app
+- [ ] Exploring the developer tools in the browser for the app request
+- [ ] Passing HTML to res.send
+- [ ] Sending JSON data back
+- [ ] Error handling in the JSON request
+- [ ] The static server
+- [ ] Making an HTML page
+- [ ] The head tag
+- [ ] The body tag
+- [ ] Serving the HTML page in the Express app
+- [ ] The call to app.listen
+- [ ] Rendering templates
+- [ ] Installing the hbs module
+- [ ] Configuring handlebars
+- [ ] Our first template
+- [ ] Getting the static page for rendering
+- [ ] Injecting data inside of templates
+- [ ] Rendering the template for the root of the website
+- [ ] Advanced templates
+- [ ] Adding partials
+- [ ] Working of partial
+- [ ] The Header partial
+- [ ] The Handlebars helper
+- [ ] Arguments in Helper
+- [ ] Express Middleware
+- [ ] Exploring middleware
+- [ ] Creating a logger
+- [ ] Printing message to file
+- [ ] The maintenance middleware without the next object
+- [ ] Testing the maintenance middleware
+- [ ] Summary
+[Go Up](#learning-nodejs-development)
+### 9. Deploying Applications to Web
+- [ ] Adding version control
+- [ ] Installing Git
+- [ ] Git on macOS
+- [ ] Git on Windows
+- [ ] Testing the installation
+- [ ] Turning the node-web-server directory into a Git repository
+- [ ] Using Git
+- [ ] Adding untracked files to commit
+- [ ] Making a commit
+- [ ] Setting up GitHub and SSH keys
+- [ ] Setting up SSH keys
+- [ ] SSH keys documentations
+- [ ] Working on commands
+- [ ] Generating a key
+- [ ] Starting up the SSH agent
+- [ ] Configuring GitHub
+- [ ] Testing the configuration
+- [ ] Creating a new repository
+- [ ] Setting up the repository
+- [ ] Deploying the node app to the Web
+- [ ] Installing Heroku command-line tools
+- [ ] Log in to Heroku account locally
+- [ ] Getting SSH key to Heroku
+- [ ] Setting up in the application code for Heroku
+- [ ] Changes in the server.js file
+- [ ] Changes in the package.json file
+- [ ] Making a commit in Heroku
+- [ ] Running the Heroku create command
+- [ ] Summary
+[Go Up](#learning-nodejs-development)
+### 10. Testing the Node Applications – Part 1
+- [ ] Basic testing
+- [ ] Installing the testing module
+- [ ] Testing a Node project
+- [ ] Mocha – the testing framework
+- [ ] Creating a test file for the add function
+- [ ] Creating the if condition for the test
+- [ ] Testing the squaring a number function
+- [ ] Autorestarting the tests
+- [ ] Using assertion libraries in testing Node modules
+- [ ] Exploring assertion libraries
+- [ ] Chaining multiple assertions
+- [ ] Multiple assertions for the square function
+- [ ] Exploring usage of expect with bogus test
+- [ ] Using toBe and toNotBe to compare array/objects
+- [ ] Using the toEqual and toNotEqual assertions
+- [ ] Using toInclude and toExclude
+- [ ] Testing the setName method
+- [ ] The asynchronous testing
+- [ ] Creating the asyncAdd function using the setTimeout object
+- [ ] Writing the test for the asyncAdd function
+- [ ] Making assertion for the asyncAdd function
+- [ ] Adding the done argument
+- [ ] The asynchronous testing for the square function
+- [ ] Creating the async square function
+- [ ] Writing test for asyncSquare
+- [ ] Making assertions for the asyncSquare function
+- [ ] Summary
+[Go Up](#learning-nodejs-development)
+### 11. Testing the Node Applications – Part 2
+- [ ] Testing the Express application
+- [ ] Setting up testing for the Express app
+- [ ] Testing the Express app using SuperTest
+- [ ] The SuperTest documentation
+- [ ] Creating a test for the Express app
+- [ ] Writing the test for the Express app
+- [ ] Testing our first API request
+- [ ] Setting up custom status
+- [ ] Adding flexibility to SuperTest
+- [ ] Creating an express route
+- [ ] Writing the test for the express route
+- [ ] Organizing test with describe()
+- [ ] Adding describe() for individual methods
+- [ ] Adding the route describe block for the server.test.js file
+- [ ] Test spies
+- [ ] Creating a test file for spies
+- [ ] Creating a spy
+- [ ] Setting up spies assertions
+- [ ] More details out of spy assertion
+- [ ] Swapping of the function with spy
+- [ ] Installing and setting up the rewire function
+- [ ] Replacing db with the spy
+- [ ] Writing a test to verify swapping of the function
+- [ ] Summary
+- [ ] Conclusion
+[Go Up](#learning-nodejs-development)
+
+# Anotaciones
+***Seccion para anotaciones, recordatorios y snippets utiles.***
+
+
+[Go Up](#learning-nodejs-development)
