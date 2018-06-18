@@ -24,7 +24,7 @@
 - [x] Conventions used
 - [x] Get in touch
 - [x] Reviews
-[Go Up](#learning-nodejs-development)
+<br/>[Go Up](#learning-nodejs-development)
 ### 1. Getting Set Up
 - [x] Node.js installation
 - [x] Node.js version confirmation
@@ -43,7 +43,7 @@
 - [x] Creating the Node application
 - [x] Running the Node application
 - [x] Summary
-[Go Up](#learning-nodejs-development)
+<br/>[Go Up](#learning-nodejs-development)
 ### 2. Node Fundamentals – Part 1
 - [x] Module basics
 - [x] Using case for require()
@@ -79,7 +79,7 @@
 - [x] Solution to the exercise
 - [x] Getting the specific note information
 - [x] Summary
-[Go Up](#learning-nodejs-development)
+<br/>[Go Up](#learning-nodejs-development)
 ### 3. Node Fundamentals – Part 2
 - [x] yargs
 - [x] Installing yargs
@@ -109,7 +109,7 @@
 - [ ] Working with saveNotes
 - [ ] Testing the functionality
 - [ ] Summary
-[Go Up](#learning-nodejs-development)
+<br/>[Go Up](#learning-nodejs-development)
 ### 4. Node Fundamentals – Part 3
 - [ ] Removing a note
 - [ ] Using the removeNote function
@@ -139,7 +139,7 @@
 - [ ] Exploring the difference between regular and arrow functions
 - [ ] Exploring the arguments array
 - [ ] Summary
-[Go Up](#learning-nodejs-development)
+<br/>[Go Up](#learning-nodejs-development)
 ### 5. Basics of Asynchronous Programming in Node.js
 - [ ] The basic concept of asynchronous program
 - [ ] Illustrating the async programming model
@@ -172,7 +172,7 @@
 - [ ] Printing the formatted address
 - [ ] Printing latitude and longitude
 - [ ] Summary
-[Go Up](#learning-nodejs-development)
+<br/>[Go Up](#learning-nodejs-development)
 ### 6. Callbacks in Asynchronous Programming
 - [ ] Encoding user input
 - [ ] Installing yargs
@@ -216,7 +216,7 @@
 - [ ] Replacing static coordinates with dynamic coordinates
 - [ ] Testing the chaining of callbacks
 - [ ] Summary
-[Go Up](#learning-nodejs-development)
+<br/>[Go Up](#learning-nodejs-development)
 ### 7. Promises in Asynchronous Programming
 - [ ] Introduction to ES6 promises
 - [ ] Creating an example promise
@@ -243,7 +243,7 @@
 - [ ] Generating the weather URL
 - [ ] Chaining the promise calls
 - [ ] Summary
-[Go Up](#learning-nodejs-development)
+<br/>[Go Up](#learning-nodejs-development)
 ### 8. Web Servers in Node
 - [ ] Introducing Express
 - [ ] Configuring Express
@@ -280,7 +280,7 @@
 - [ ] The maintenance middleware without the next object
 - [ ] Testing the maintenance middleware
 - [ ] Summary
-[Go Up](#learning-nodejs-development)
+<br/>[Go Up](#learning-nodejs-development)
 ### 9. Deploying Applications to Web
 - [ ] Adding version control
 - [ ] Installing Git
@@ -311,7 +311,7 @@
 - [ ] Making a commit in Heroku
 - [ ] Running the Heroku create command
 - [ ] Summary
-[Go Up](#learning-nodejs-development)
+<br/>[Go Up](#learning-nodejs-development)
 ### 10. Testing the Node Applications – Part 1
 - [ ] Basic testing
 - [ ] Installing the testing module
@@ -340,7 +340,7 @@
 - [ ] Writing test for asyncSquare
 - [ ] Making assertions for the asyncSquare function
 - [ ] Summary
-[Go Up](#learning-nodejs-development)
+<br/>[Go Up](#learning-nodejs-development)
 ### 11. Testing the Node Applications – Part 2
 - [ ] Testing the Express application
 - [ ] Setting up testing for the Express app
@@ -367,10 +367,10 @@
 - [ ] Writing a test to verify swapping of the function
 - [ ] Summary
 - [ ] Conclusion
-[Go Up](#learning-nodejs-development)
+<br/>[Go Up](#learning-nodejs-development)
 
 # Anotaciones
 ***Seccion para anotaciones, recordatorios y snippets utiles.***
 
 
-[Go Up](#learning-nodejs-development)
+<br/>[Go Up](#learning-nodejs-development)
