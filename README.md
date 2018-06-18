@@ -84,7 +84,7 @@
 - [x] yargs
 - [x] Installing yargs
 - [x] Running yargs
-- [x] Working with the add command *****`NOTA: pag.233 18/06/208 01:02 progreso es hasta aqui, no hay dudas por el momento hasta este punto, aprendi markdown para hacer este archivo readme`*****
+- [x] Working with the add command <br/>*****`NOTA: pag.233 18/06/208 01:02 progreso es hasta aqui, no hay dudas por el momento hasta este punto, aprendi markdown para hacer este archivo readme y configure el repositorio git para seguir los ejemplos del libro.`*****
 - [ ] Working with the list command
 - [ ] The read command
 - [ ] Dealing with the errors in parsing commands
