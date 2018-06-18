@@ -25,9 +25,12 @@ switch (command) {
         break;
     case 'read':
         console.log('=> Reading Note');
+        notes.getNote(argv.title);
         break;
     case 'remove':
-        console.log('=> Removing Note')
+        console.log('=> Removing Note');
+        notes.removeNote(argv.title);
+        break;
     default:
         console.log(`!!! Command == ${command} == not recognized.`);
         break;

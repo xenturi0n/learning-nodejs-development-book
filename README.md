@@ -85,15 +85,15 @@
 - [x] Installing yargs
 - [x] Running yargs
 - [x] Working with the add command <br/>*****`NOTA: pag.233 18/06/208 01:02 progreso es hasta aqui, no hay dudas por el momento hasta este punto, aprendi markdown para hacer este archivo readme y configure el repositorio git para seguir los ejemplos del libro.`*****
-- [ ] Working with the list command
-- [ ] The read command
-- [ ] Dealing with the errors in parsing commands
-- [ ] The remove command
-- [ ] Fetching command
-- [ ] JSON
-- [ ] Converting objects into strings
-- [ ] Defining a string and using in app as an object
-- [ ] Converting a string back to an object
+- [x] Working with the list command
+- [x] The read command
+- [x] Dealing with the errors in parsing commands
+- [x] The remove command
+- [x] Fetching command
+- [x] JSON
+- [x] Converting objects into strings
+- [x] Defining a string and using in app as an object
+- [x] Converting a string back to an object<br/>*****`NOTA: pag.257 18/06/208 02:30 progreso hasta aqui, TODO: dar un repaso a la documentacion de la API JSON de Node.js.`*****
 - [ ] Storing the string in a file
 - [ ] Writing the file in the playground folder
 - [ ] Reading out the content in the file
