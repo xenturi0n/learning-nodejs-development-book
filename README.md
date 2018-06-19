@@ -13,8 +13,9 @@
         - [9. Deploying Applications to Web](#9-deploying-applications-to-web)
         - [10. Testing the Node Applications – Part 1](#10-testing-the-node-applications--part-1)
         - [11. Testing the Node Applications – Part 2](#11-testing-the-node-applications--part-2)
-- [Anotaciones](#anotaciones)
 
+- [Anotaciones](#anotaciones)
+    - [Enlaces Utiles](#Enlaces-Utiles)
 ## Table of Contents
 ### Preface
 - [x] What this book covers
@@ -94,14 +95,14 @@
 - [x] Converting objects into strings
 - [x] Defining a string and using in app as an object
 - [x] Converting a string back to an object<br/>*****`NOTA: pag.257 18/06/208 02:30 progreso hasta aqui, TODO: dar un repaso a la documentacion de la API JSON de Node.js.`*****
-- [ ] Storing the string in a file
-- [ ] Writing the file in the playground folder
-- [ ] Reading out the content in the file
-- [ ] Adding and saving notes
-- [ ] Adding notes
-- [ ] Adding notes to the notes array
-- [ ] Fetching new notes
-- [ ] Trying and catching code block
+- [x] Storing the string in a file
+- [x] Writing the file in the playground folder
+- [x] Reading out the content in the file
+- [x] Adding and saving notes
+- [x] Adding notes
+- [x] Adding notes to the notes array
+- [x] Fetching new notes
+- [x] Trying and catching code block<br/>*****`NOTA: pag.278 18/06/208 23:06 terminada esta seccion, TODO: repasar manejo de errores en javascript`*****
 - [ ] Making the title unique
 - [ ] Refactoring
 - [ ] Moving functionality into individual functions
@@ -369,8 +370,11 @@
 - [ ] Conclusion
 <br/>[Go Up](#learning-nodejs-development)
 
-# Anotaciones
+# ANOTACIONES Y RECURSOS
 ***Seccion para anotaciones, recordatorios y snippets utiles.***
 
-
+## Enlaces Utiles
+- **streams en nodejs** [https://www.transitions-now.com/tag/node-js/](https://www.transitions-now.com/tag/node-js/)
+- **The Net Ninja** `canal de youtube con muy buenos tutoriales de Javascript y NodeJS` [https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg/playlists](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg/playlists)
+- **Canal de javier moreno** `Canal de youtube con una explicacion magistral acerca de objetos, stack y heap, prototipado, closures, etc.. en javascript`[https://www.youtube.com/watch?v=ncHEgulapWM&list=PLeHi8rVLGcYZMVCwqN2-XN8qrhWZhM1l7](https://www.youtube.com/watch?v=ncHEgulapWM&list=PLeHi8rVLGcYZMVCwqN2-XN8qrhWZhM1l7)
 <br/>[Go Up](#learning-nodejs-development)
