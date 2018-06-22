@@ -21,7 +21,11 @@ switch (command) {
         break;
     case 'add':
         console.log('=> Adding New Note');
-        notes.addNote(argv.title, argv.body);
+        notes.addNote(argv.title, argv.body, (e, data) => {
+            if (e) {
+                console.log(e.message);
+            }
+        });
         break;
     case 'read':
         console.log('=> Reading Note');

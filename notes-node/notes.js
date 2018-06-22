@@ -1,41 +1,41 @@
 console.log('Satring notes');
 const fs = require('fs');
+const errUtil = require('./error-utilities');
 
 const _duplicatedNote = (title, notes) => {
     return notes.find((note) => note.title === title);
-    // return notes.find(title, (note) => note.title === title);
 }
 
-const addNote = (title, body) => {
-    console.log(`Titulo: ${title}\nBody: ${body}`);
+const addNote = (title, body, callback) => {
     try {
-        var notes = JSON.parse(fs.readFileSync('notes-data.json'));
+        let jsonFile = 'notes-data.json';
+
+        if (!fs.existsSync(jsonFile)) {
+            fs.writeFileSync(jsonFile, '[]', 'utf8');
+        }
+
+        var notes = JSON.parse(fs.readFileSync('notes-data.json', 'utf-8'));
+
         if (_duplicatedNote(title, notes)) {
-            console.log("========================= nota duplicada")
-        } else {
-            console.log("========================= No duplicada")
+            throw errUtil.errBuilder(`ERROR:  El titulo ${title} ya existe en el archivo ${jsonFile}.`, errUtil.errCode.DUPLICATED_NOTE);
         }
+
+        notes.push({ title, body });
+        fs.writeFileSync(jsonFile, JSON.stringify(notes), 'utf8');
+
     } catch (e) {
-        if (e.errno === -4058) {
-            let notes = [];
-            notes.push({ title, body });
-            fs.writeFileSync('notes-data.json', JSON.stringify(notes));
-        } else if (e.name === 'SyntaxError') {
-            console.error('El archivo notes-data.json esta corrompido o no cuenta con la sintaxis json correcta.');
+        if (e.name === 'SyntaxError') {
+            console.log(errUtil.errCode.JSON_FILE_BAD_SYNTAX);
+            callback(errUtil.errBuilder('ERROR:  Sintaxis incorrecta e archivo JSON.', errUtil.errCode.JSON_FILE_BAD_SYNTAX));
+            return;
+        } else if (e.code === 'ENOENT') {
+            callback(errUtil.errBuilder('ERROR:  El arvhivo al que intentas acceder no existe.', errUtil.errCode.FILE_NOT_EXISTS));
+            return;
         } else {
-            console.log(e.message);
+            callback(e);
         }
-        return;
     }
-
-    let note = {
-        title,
-        body
-    };
-
-    notes.push(note);
-    fs.writeFileSync('notes-data.json', JSON.stringify(notes));
-    console.log(notes);
+    return;
 }
 
 const getAll = () => {
