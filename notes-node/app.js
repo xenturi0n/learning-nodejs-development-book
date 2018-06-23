@@ -19,22 +19,29 @@ switch (command) {
         console.log('=> Listing Notes');
         notes.getAll();
         break;
+
     case 'add':
         console.log('=> Adding New Note');
         notes.addNote(argv.title, argv.body, (e, data) => {
             if (e) {
                 console.log(e.message);
+                return;
+            } else {
+                console.log(`OK: Note Created succefuly. \n TITLE: ${data.title}\n BODY: ${data.body}`);
             }
         });
         break;
+
     case 'read':
         console.log('=> Reading Note');
         notes.getNote(argv.title);
         break;
+
     case 'remove':
         console.log('=> Removing Note');
         notes.removeNote(argv.title);
         break;
+
     default:
         console.log(`!!! Command == ${command} == not recognized.`);
         break;

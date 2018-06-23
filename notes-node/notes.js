@@ -2,30 +2,38 @@ console.log('Satring notes');
 const fs = require('fs');
 const errUtil = require('./error-utilities');
 
+let jsonFile = 'notes-data.json';
+
 const _duplicatedNote = (title, notes) => {
     return notes.find((note) => note.title === title);
 }
 
+const _fetchNotes = () => {
+    try {
+        var notesString = fs.readFileSync(jsonFile);
+        return JSON.parse(notesString);
+    } catch (e) {
+        console.log(e);
+        return [];
+    }
+}
+
 const addNote = (title, body, callback) => {
     try {
-        let jsonFile = 'notes-data.json';
 
-        if (!fs.existsSync(jsonFile)) {
-            fs.writeFileSync(jsonFile, '[]', 'utf8');
-        }
-
-        var notes = JSON.parse(fs.readFileSync('notes-data.json', 'utf-8'));
+        var notes = _fetchNotes();
 
         if (_duplicatedNote(title, notes)) {
             throw errUtil.errBuilder(`ERROR:  El titulo ${title} ya existe en el archivo ${jsonFile}.`, errUtil.errCode.DUPLICATED_NOTE);
         }
 
-        notes.push({ title, body });
+        var note = { title, body };
+        notes.push(note);
         fs.writeFileSync(jsonFile, JSON.stringify(notes), 'utf8');
+        callback(null, note);
 
     } catch (e) {
         if (e.name === 'SyntaxError') {
-            console.log(errUtil.errCode.JSON_FILE_BAD_SYNTAX);
             callback(errUtil.errBuilder('ERROR:  Sintaxis incorrecta e archivo JSON.', errUtil.errCode.JSON_FILE_BAD_SYNTAX));
             return;
         } else if (e.code === 'ENOENT') {
