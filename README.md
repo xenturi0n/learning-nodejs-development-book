@@ -103,13 +103,13 @@
 - [x] Adding notes to the notes array
 - [x] Fetching new notes
 - [x] Trying and catching code block<br/>*****`NOTA: pag.278 18/06/208 23:06 terminada esta seccion, TODO: repasar manejo de errores en javascript`*****
-- [ ] Making the title unique
-- [ ] Refactoring
-- [ ] Moving functionality into individual functions
-- [ ] Working with fetchNotes
-- [ ] Working with saveNotes
-- [ ] Testing the functionality
-- [ ] Summary
+- [x] Making the title unique
+- [x] Refactoring
+- [x] Moving functionality into individual functions
+- [x] Working with fetchNotes
+- [x] Working with saveNotes
+- [x] Testing the functionality
+- [x] Summary <br/>*****`NOTA: pag.299 22/06/208 19:18 terminada esta seccion, aprendido el manejo de errores basico en javascript`*****
 <br/>[Go Up](#learning-nodejs-development)
 ### 4. Node Fundamentals – Part 3
 - [ ] Removing a note
