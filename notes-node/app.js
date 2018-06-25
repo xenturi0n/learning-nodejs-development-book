@@ -27,19 +27,23 @@ switch (command) {
                 console.log(e.message);
                 return;
             } else {
-                console.log(`OK: Note Created succefuly. \n TITLE: ${data.title}\n BODY: ${data.body}`);
+                console.log(`OK: Note Created succefuly.`);
+                notes.logNote({ title: argv.title, body: argv.body });
             }
         });
         break;
 
     case 'read':
         console.log('=> Reading Note');
-        notes.getNote(argv.title);
+        var note = notes.getNote(argv.title);
+        note ? notes.logNote(note) : console.log(`${argv.title}, Not found.`);
         break;
 
     case 'remove':
         console.log('=> Removing Note');
-        notes.removeNote(argv.title);
+        var removed = notes.removeNote(argv.title);
+        var mensaje = removed ? `OK: ${removed} Notes Removed succefully.` : `Note Title: ${argv.title}, Not Found. ${removed} Removed.`;
+        console.log(mensaje);
         break;
 
     default:

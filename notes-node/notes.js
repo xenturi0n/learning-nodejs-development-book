@@ -18,6 +18,10 @@ const _fetchNotes = () => {
     }
 }
 
+const _saveNotes = (notes) => {
+    fs.writeFileSync(jsonFile, JSON.stringify(notes), 'utf8');
+}
+
 const addNote = (title, body, callback) => {
     try {
 
@@ -29,7 +33,8 @@ const addNote = (title, body, callback) => {
 
         var note = { title, body };
         notes.push(note);
-        fs.writeFileSync(jsonFile, JSON.stringify(notes), 'utf8');
+        // fs.writeFileSync(jsonFile, JSON.stringify(notes), 'utf8');
+        _saveNotes(notes);
         callback(null, note);
 
     } catch (e) {
@@ -51,16 +56,28 @@ const getAll = () => {
 }
 
 const getNote = (title) => {
-    console.log(`Getting note "${title}"`);
+    var notes = _fetchNotes();
+    var notesFiltered = notes.filter((note) => note.title === title);
+    return notesFiltered[0];
 }
 
 const removeNote = (title) => {
-    console.log(`Removing note: "${title}"`);
+    var notes = _fetchNotes(title);
+    var filteredNotes = notes.filter((note) => note.title != title);
+    _saveNotes(filteredNotes);
+    return (notes.length - filteredNotes.length);
+}
+
+const logNote = (note) => {
+    console.log('---');
+    console.log(`Title: ${note.title}`);
+    console.log(`Body: ${note.body}`);
 }
 
 module.exports = {
     addNote,
     getAll,
     getNote,
-    removeNote
+    removeNote,
+    logNote
 }

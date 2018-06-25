@@ -112,14 +112,14 @@
 - [x] Summary <br/>*****`NOTA: pag.299 22/06/208 19:18 terminada esta seccion, aprendido el manejo de errores basico en javascript`*****
 <br/>[Go Up](#learning-nodejs-development)
 ### 4. Node Fundamentals – Part 3
-- [ ] Removing a note
-- [ ] Using the removeNote function
-- [ ] Printing a message of removing notes
-- [ ] Reading note
-- [ ] Using the getNote function
-- [ ] Running the getNote function
-- [ ] The DRY principle
-- [ ] Using the logNote function
+- [x] Removing a note
+- [x] Using the removeNote function
+- [x] Printing a message of removing notes
+- [x] Reading note
+- [x] Using the getNote function
+- [x] Running the getNote function
+- [x] The DRY principle
+- [x] Using the logNote function<br/>*****`NOTA: pag.321 24/06/208 23:36 terminada esta seccion, TODO: investigar acerca de debugging en nodejs`*****
 - [ ] Debugging
 - [ ] Executing a program in debug mode
 - [ ] Working with debugging
