@@ -1,4 +1,3 @@
-console.log('Satring notes');
 const fs = require('fs');
 const errUtil = require('./error-utilities');
 
@@ -52,7 +51,7 @@ const addNote = (title, body, callback) => {
 }
 
 const getAll = () => {
-    console.log('Getting all notes')
+    return _fetchNotes();
 }
 
 const getNote = (title) => {

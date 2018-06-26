@@ -3,16 +3,18 @@
     - [Table of Contents](#table-of-contents)
         - [Preface](#preface)
         - [1. Getting Set Up](#1-getting-set-up)
-        - [2. Node Fundamentals – Part 1](#2-node-fundamentals--part-1)
-        - [3. Node Fundamentals – Part 2 (***CURRENT***)](#3-node-fundamentals--part-2-current)
-        - [4. Node Fundamentals – Part 3](#4-node-fundamentals--part-3)
+        - [2. Node Fundamentals – Part 1](#2-node-fundamentals-%E2%80%93-part-1)
+        - [3. Node Fundamentals – Part 2 (***CURRENT***)](#3-node-fundamentals-%E2%80%93-part-2-current)
+        - [4. Node Fundamentals – Part 3](#4-node-fundamentals-%E2%80%93-part-3)
         - [5. Basics of Asynchronous Programming in Node.js](#5-basics-of-asynchronous-programming-in-nodejs)
         - [6. Callbacks in Asynchronous Programming](#6-callbacks-in-asynchronous-programming)
         - [7. Promises in Asynchronous Programming](#7-promises-in-asynchronous-programming)
         - [8. Web Servers in Node](#8-web-servers-in-node)
         - [9. Deploying Applications to Web](#9-deploying-applications-to-web)
-        - [10. Testing the Node Applications – Part 1](#10-testing-the-node-applications--part-1)
-        - [11. Testing the Node Applications – Part 2](#11-testing-the-node-applications--part-2)
+        - [10. Testing the Node Applications – Part 1](#10-testing-the-node-applications-%E2%80%93-part-1)
+        - [11. Testing the Node Applications – Part 2](#11-testing-the-node-applications-%E2%80%93-part-2)
+- [ANOTACIONES Y RECURSOS](#anotaciones-y-recursos)
+    - [Enlaces Utiles](#enlaces-utiles)
 
 - [Anotaciones](#anotaciones)
     - [Enlaces Utiles](#Enlaces-Utiles)
@@ -120,12 +122,12 @@
 - [x] Running the getNote function
 - [x] The DRY principle
 - [x] Using the logNote function<br/>*****`NOTA: pag.321 24/06/208 23:36 terminada esta seccion, TODO: investigar acerca de debugging en nodejs`*****
-- [ ] Debugging
-- [ ] Executing a program in debug mode
-- [ ] Working with debugging
-- [ ] Using debugger inside the notes application
-- [ ] Listing notes
-- [ ] Using the getAll function
+- [x] Debugging
+- [x] Executing a program in debug mode
+- [x] Working with debugging
+- [x] Using debugger inside the notes application
+- [x] Listing notes
+- [x] Using the getAll function
 - [ ] Advanced yargs
 - [ ] Using chaining syntax on yargs
 - [ ] Calling the .help command
