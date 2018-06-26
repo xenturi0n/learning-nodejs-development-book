@@ -379,4 +379,5 @@
 - **streams en nodejs** [https://www.transitions-now.com/tag/node-js/](https://www.transitions-now.com/tag/node-js/)
 - **The Net Ninja** `canal de youtube con muy buenos tutoriales de Javascript y NodeJS` [https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg/playlists](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg/playlists)
 - **Canal de javier moreno** `Canal de youtube con una explicacion magistral acerca de objetos, stack y heap, prototipado, closures, etc.. en javascript`[https://www.youtube.com/watch?v=ncHEgulapWM&list=PLeHi8rVLGcYZMVCwqN2-XN8qrhWZhM1l7](https://www.youtube.com/watch?v=ncHEgulapWM&list=PLeHi8rVLGcYZMVCwqN2-XN8qrhWZhM1l7)
+- **Presentacion interactiva de EVENT LOOP** [https://thomashunter.name/presentations/javascript-event-loop-v5/#/5](https://thomashunter.name/presentations/javascript-event-loop-v5/#/5)
 <br/>[Go Up](#learning-nodejs-development)
