@@ -141,7 +141,7 @@
 - [x] Using the arrow function
 - [x] Exploring the difference between regular and arrow functions
 - [x] Exploring the arguments array
-- [x] Summary<br/>*****`NOTA: pag.374 25/06/208 19:57 terminada esta seccion, TODO: Entender los conceptos de programacion asincrona en nodejs`*****
+- [x] Summary<br/>*****`NOTA: pag.374 25/06/208 19:57 terminada esta seccion, TODO: Repasar los videos de Javier Moreno en youtube para asentar la programacion orientada a objetos, Repasar event loop`*****
 <br/>[Go Up](#learning-nodejs-development)
 ### 5. Basics of Asynchronous Programming in Node.js
 - [ ] The basic concept of asynchronous program
