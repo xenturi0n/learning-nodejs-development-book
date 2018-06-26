@@ -128,20 +128,20 @@
 - [x] Using debugger inside the notes application
 - [x] Listing notes
 - [x] Using the getAll function
-- [ ] Advanced yargs
-- [ ] Using chaining syntax on yargs
-- [ ] Calling the .help command
-- [ ] Adding the options object
-- [ ] Adding the title
-- [ ] Adding the body
-- [ ] Adding support to the read and remove commands
-- [ ] Adding the titleOption and bodyOption variables
-- [ ] Testing the remove command
-- [ ] Arrow functions
-- [ ] Using the arrow function
-- [ ] Exploring the difference between regular and arrow functions
-- [ ] Exploring the arguments array
-- [ ] Summary
+- [x] Advanced yargs
+- [x] Using chaining syntax on yargs
+- [x] Calling the .help command
+- [x] Adding the options object
+- [x] Adding the title
+- [x] Adding the body
+- [x] Adding support to the read and remove commands
+- [x] Adding the titleOption and bodyOption variables
+- [x] Testing the remove command
+- [x] Arrow functions
+- [x] Using the arrow function
+- [x] Exploring the difference between regular and arrow functions
+- [x] Exploring the arguments array
+- [x] Summary<br/>*****`NOTA: pag.374 25/06/208 19:57 terminada esta seccion, TODO: Entender los conceptos de programacion asincrona en nodejs`*****
 <br/>[Go Up](#learning-nodejs-development)
 ### 5. Basics of Asynchronous Programming in Node.js
 - [ ] The basic concept of asynchronous program
