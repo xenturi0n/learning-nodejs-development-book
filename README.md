@@ -1,10 +1,11 @@
 # Learning Node.js Development
+
 - [Learning Node.js Development](#learning-nodejs-development)
     - [Table of Contents](#table-of-contents)
         - [Preface](#preface)
         - [1. Getting Set Up](#1-getting-set-up)
         - [2. Node Fundamentals – Part 1](#2-node-fundamentals-%E2%80%93-part-1)
-        - [3. Node Fundamentals – Part 2 (***CURRENT***)](#3-node-fundamentals-%E2%80%93-part-2-current)
+        - [3. Node Fundamentals – Part 2 (**_CURRENT_**)](#3-node-fundamentals-%E2%80%93-part-2-current)
         - [4. Node Fundamentals – Part 3](#4-node-fundamentals-%E2%80%93-part-3)
         - [5. Basics of Asynchronous Programming in Node.js](#5-basics-of-asynchronous-programming-in-nodejs)
         - [6. Callbacks in Asynchronous Programming](#6-callbacks-in-asynchronous-programming)
@@ -16,10 +17,25 @@
 - [ANOTACIONES Y RECURSOS](#anotaciones-y-recursos)
     - [Enlaces Utiles](#enlaces-utiles)
 
+  - [Enlaces Utiles](#enlaces-utiles)
+
+  - [Enlaces Utiles](#enlaces-utiles)
+
+  - [Enlaces Utiles](#enlaces-utiles)
+
+  - [Enlaces Utiles](#enlaces-utiles)
+
+  - [Enlaces Utiles](#enlaces-utiles)
+
+  - [Enlaces Utiles](#enlaces-utiles)
+
 - [Anotaciones](#anotaciones)
-    - [Enlaces Utiles](#Enlaces-Utiles)
+  - [Enlaces Utiles](#Enlaces-Utiles)
+
 ## Table of Contents
+
 ### Preface
+
 - [x] What this book covers
 - [x] Who this book is for
 - [x] To get the most out of this book
@@ -27,8 +43,10 @@
 - [x] Conventions used
 - [x] Get in touch
 - [x] Reviews
-<br/>[Go Up](#learning-nodejs-development)
+      <br/>[Go Up](#learning-nodejs-development)
+
 ### 1. Getting Set Up
+
 - [x] Node.js installation
 - [x] Node.js version confirmation
 - [x] Installing Node
@@ -46,8 +64,10 @@
 - [x] Creating the Node application
 - [x] Running the Node application
 - [x] Summary
-<br/>[Go Up](#learning-nodejs-development)
+      <br/>[Go Up](#learning-nodejs-development)
+
 ### 2. Node Fundamentals – Part 1
+
 - [x] Module basics
 - [x] Using case for require()
 - [x] Initialization of an application
@@ -68,8 +88,8 @@
 - [x] Installing the lodash module in our app
 - [x] Installation of lodash
 - [x] Using the utilities of lodash
-- [x] Using the _.isString utility
-- [x] Using _.uniq
+- [x] Using the \_.isString utility
+- [x] Using \_.uniq
 - [x] The node_modules folder
 - [x] Global modules
 - [x] Installing the nodemon module
@@ -82,12 +102,14 @@
 - [x] Solution to the exercise
 - [x] Getting the specific note information
 - [x] Summary
-<br/>[Go Up](#learning-nodejs-development)
-### 3. Node Fundamentals – Part 2 (***CURRENT***)
+      <br/>[Go Up](#learning-nodejs-development)
+
+### 3. Node Fundamentals – Part 2 (**_CURRENT_**)
+
 - [x] yargs
 - [x] Installing yargs
 - [x] Running yargs
-- [x] Working with the add command <br/>*****`NOTA: pag.233 18/06/208 01:02 progreso es hasta aqui, no hay dudas por el momento hasta este punto, aprendi markdown para hacer este archivo readme y configure el repositorio git para seguir los ejemplos del libro.`*****
+- [x] Working with the add command <br/>**\***`NOTA: pag.233 18/06/208 01:02 progreso es hasta aqui, no hay dudas por el momento hasta este punto, aprendi markdown para hacer este archivo readme y configure el repositorio git para seguir los ejemplos del libro.`**\***
 - [x] Working with the list command
 - [x] The read command
 - [x] Dealing with the errors in parsing commands
@@ -96,7 +118,7 @@
 - [x] JSON
 - [x] Converting objects into strings
 - [x] Defining a string and using in app as an object
-- [x] Converting a string back to an object<br/>*****`NOTA: pag.257 18/06/208 02:30 progreso hasta aqui, TODO: dar un repaso a la documentacion de la API JSON de Node.js.`*****
+- [x] Converting a string back to an object<br/>**\***`NOTA: pag.257 18/06/208 02:30 progreso hasta aqui, TODO: dar un repaso a la documentacion de la API JSON de Node.js.`**\***
 - [x] Storing the string in a file
 - [x] Writing the file in the playground folder
 - [x] Reading out the content in the file
@@ -104,16 +126,18 @@
 - [x] Adding notes
 - [x] Adding notes to the notes array
 - [x] Fetching new notes
-- [x] Trying and catching code block<br/>*****`NOTA: pag.278 18/06/208 23:06 terminada esta seccion, TODO: repasar manejo de errores en javascript`*****
+- [x] Trying and catching code block<br/>**\***`NOTA: pag.278 18/06/208 23:06 terminada esta seccion, TODO: repasar manejo de errores en javascript`**\***
 - [x] Making the title unique
 - [x] Refactoring
 - [x] Moving functionality into individual functions
 - [x] Working with fetchNotes
 - [x] Working with saveNotes
 - [x] Testing the functionality
-- [x] Summary <br/>*****`NOTA: pag.299 22/06/208 19:18 terminada esta seccion, aprendido el manejo de errores basico en javascript`*****
-<br/>[Go Up](#learning-nodejs-development)
+- [x] Summary <br/>**\***`NOTA: pag.299 22/06/208 19:18 terminada esta seccion, aprendido el manejo de errores basico en javascript`**\***
+      <br/>[Go Up](#learning-nodejs-development)
+
 ### 4. Node Fundamentals – Part 3
+
 - [x] Removing a note
 - [x] Using the removeNote function
 - [x] Printing a message of removing notes
@@ -121,7 +145,7 @@
 - [x] Using the getNote function
 - [x] Running the getNote function
 - [x] The DRY principle
-- [x] Using the logNote function<br/>*****`NOTA: pag.321 24/06/208 23:36 terminada esta seccion, TODO: investigar acerca de debugging en nodejs`*****
+- [x] Using the logNote function<br/>**\***`NOTA: pag.321 24/06/208 23:36 terminada esta seccion, TODO: investigar acerca de debugging en nodejs`**\***
 - [x] Debugging
 - [x] Executing a program in debug mode
 - [x] Working with debugging
@@ -141,9 +165,11 @@
 - [x] Using the arrow function
 - [x] Exploring the difference between regular and arrow functions
 - [x] Exploring the arguments array
-- [x] Summary<br/>*****`NOTA: pag.374 25/06/208 19:57 terminada esta seccion, TODO: Repasar los videos de Javier Moreno en youtube para asentar la programacion orientada a objetos, Repasar event loop`*****
-<br/>[Go Up](#learning-nodejs-development)
+- [x] Summary<br/>**\***`NOTA: pag.374 25/06/208 19:57 terminada esta seccion, TODO: Repasar los videos de Javier Moreno en youtube para asentar la programacion orientada a objetos, Repasar event loop`**\***
+      <br/>[Go Up](#learning-nodejs-development)
+
 ### 5. Basics of Asynchronous Programming in Node.js
+
 - [ ] The basic concept of asynchronous program
 - [ ] Illustrating the async programming model
 - [ ] Call stack and event loop
@@ -175,8 +201,10 @@
 - [ ] Printing the formatted address
 - [ ] Printing latitude and longitude
 - [ ] Summary
-<br/>[Go Up](#learning-nodejs-development)
+      <br/>[Go Up](#learning-nodejs-development)
+
 ### 6. Callbacks in Asynchronous Programming
+
 - [ ] Encoding user input
 - [ ] Installing yargs
 - [ ] Configuring yargs
@@ -219,8 +247,10 @@
 - [ ] Replacing static coordinates with dynamic coordinates
 - [ ] Testing the chaining of callbacks
 - [ ] Summary
-<br/>[Go Up](#learning-nodejs-development)
+      <br/>[Go Up](#learning-nodejs-development)
+
 ### 7. Promises in Asynchronous Programming
+
 - [ ] Introduction to ES6 promises
 - [ ] Creating an example promise
 - [ ] Calling the promise method then
@@ -246,8 +276,10 @@
 - [ ] Generating the weather URL
 - [ ] Chaining the promise calls
 - [ ] Summary
-<br/>[Go Up](#learning-nodejs-development)
+      <br/>[Go Up](#learning-nodejs-development)
+
 ### 8. Web Servers in Node
+
 - [ ] Introducing Express
 - [ ] Configuring Express
 - [ ] Express docs website
@@ -283,8 +315,10 @@
 - [ ] The maintenance middleware without the next object
 - [ ] Testing the maintenance middleware
 - [ ] Summary
-<br/>[Go Up](#learning-nodejs-development)
+      <br/>[Go Up](#learning-nodejs-development)
+
 ### 9. Deploying Applications to Web
+
 - [ ] Adding version control
 - [ ] Installing Git
 - [ ] Git on macOS
@@ -314,8 +348,10 @@
 - [ ] Making a commit in Heroku
 - [ ] Running the Heroku create command
 - [ ] Summary
-<br/>[Go Up](#learning-nodejs-development)
+      <br/>[Go Up](#learning-nodejs-development)
+
 ### 10. Testing the Node Applications – Part 1
+
 - [ ] Basic testing
 - [ ] Installing the testing module
 - [ ] Testing a Node project
@@ -343,8 +379,10 @@
 - [ ] Writing test for asyncSquare
 - [ ] Making assertions for the asyncSquare function
 - [ ] Summary
-<br/>[Go Up](#learning-nodejs-development)
+      <br/>[Go Up](#learning-nodejs-development)
+
 ### 11. Testing the Node Applications – Part 2
+
 - [ ] Testing the Express application
 - [ ] Setting up testing for the Express app
 - [ ] Testing the Express app using SuperTest
@@ -370,14 +408,18 @@
 - [ ] Writing a test to verify swapping of the function
 - [ ] Summary
 - [ ] Conclusion
-<br/>[Go Up](#learning-nodejs-development)
+      <br/>[Go Up](#learning-nodejs-development)
 
 # ANOTACIONES Y RECURSOS
-***Seccion para anotaciones, recordatorios y snippets utiles.***
+
+**_Seccion para anotaciones, recordatorios y snippets utiles._**
 
 ## Enlaces Utiles
+
+- **Loupe** `Herramienta para ver grafica e interactivamente el funcionamiento del EVENT LOOP Y CALL STACK` [http://latentflip.com/loupe](http://latentflip.com/loupe)
+- **Appdelante** `Canal de youtube con excelentes temas, como Fundamentos de HTTP y Apis, Asincronia en Javascript, Cookies y Sesiones en Node.js, AWS S3 con Node.js, Desarrollo de Un Clon de Twitter con Node, etc...` [https://www.youtube.com/channel/UCJlT-NI_6xxLuuRjN8HNJDQ/playlists](https://www.youtube.com/channel/UCJlT-NI_6xxLuuRjN8HNJDQ/playlists)
 - **streams en nodejs** [https://www.transitions-now.com/tag/node-js/](https://www.transitions-now.com/tag/node-js/)
 - **The Net Ninja** `canal de youtube con muy buenos tutoriales de Javascript y NodeJS` [https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg/playlists](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg/playlists)
 - **Canal de javier moreno** `Canal de youtube con una explicacion magistral acerca de objetos, stack y heap, prototipado, closures, etc.. en javascript`[https://www.youtube.com/watch?v=ncHEgulapWM&list=PLeHi8rVLGcYZMVCwqN2-XN8qrhWZhM1l7](https://www.youtube.com/watch?v=ncHEgulapWM&list=PLeHi8rVLGcYZMVCwqN2-XN8qrhWZhM1l7)
 - **Presentacion interactiva de EVENT LOOP** [https://thomashunter.name/presentations/javascript-event-loop-v5/#/5](https://thomashunter.name/presentations/javascript-event-loop-v5/#/5)
-<br/>[Go Up](#learning-nodejs-development)
+  <br/>[Go Up](#learning-nodejs-development)
