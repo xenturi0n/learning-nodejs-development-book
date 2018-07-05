@@ -1,21 +1,21 @@
 # Learning Node.js Development
 
 - [Learning Node.js Development](#learning-nodejs-development)
-    - [Table of Contents](#table-of-contents)
-        - [Preface](#preface)
-        - [1. Getting Set Up](#1-getting-set-up)
-        - [2. Node Fundamentals – Part 1](#2-node-fundamentals-%E2%80%93-part-1)
-        - [3. Node Fundamentals – Part 2 (**_CURRENT_**)](#3-node-fundamentals-%E2%80%93-part-2-current)
-        - [4. Node Fundamentals – Part 3](#4-node-fundamentals-%E2%80%93-part-3)
-        - [5. Basics of Asynchronous Programming in Node.js](#5-basics-of-asynchronous-programming-in-nodejs)
-        - [6. Callbacks in Asynchronous Programming](#6-callbacks-in-asynchronous-programming)
-        - [7. Promises in Asynchronous Programming](#7-promises-in-asynchronous-programming)
-        - [8. Web Servers in Node](#8-web-servers-in-node)
-        - [9. Deploying Applications to Web](#9-deploying-applications-to-web)
-        - [10. Testing the Node Applications – Part 1](#10-testing-the-node-applications-%E2%80%93-part-1)
-        - [11. Testing the Node Applications – Part 2](#11-testing-the-node-applications-%E2%80%93-part-2)
+      - [Table of Contents](#table-of-contents)
+            - [Preface](#preface)
+            - [1. Getting Set Up](#1-getting-set-up)
+            - [2. Node Fundamentals – Part 1](#2-node-fundamentals-%E2%80%93-part-1)
+            - [3. Node Fundamentals – Part 2 (**_CURRENT_**)](#3-node-fundamentals-%E2%80%93-part-2-current)
+            - [4. Node Fundamentals – Part 3](#4-node-fundamentals-%E2%80%93-part-3)
+            - [5. Basics of Asynchronous Programming in Node.js](#5-basics-of-asynchronous-programming-in-nodejs)
+            - [6. Callbacks in Asynchronous Programming](#6-callbacks-in-asynchronous-programming)
+            - [7. Promises in Asynchronous Programming](#7-promises-in-asynchronous-programming)
+            - [8. Web Servers in Node](#8-web-servers-in-node)
+            - [9. Deploying Applications to Web](#9-deploying-applications-to-web)
+            - [10. Testing the Node Applications – Part 1](#10-testing-the-node-applications-%E2%80%93-part-1)
+            - [11. Testing the Node Applications – Part 2](#11-testing-the-node-applications-%E2%80%93-part-2)
 - [ANOTACIONES Y RECURSOS](#anotaciones-y-recursos)
-    - [Enlaces Utiles](#enlaces-utiles)
+      - [Enlaces Utiles](#enlaces-utiles)
 
   - [Enlaces Utiles](#enlaces-utiles)
 
@@ -170,37 +170,37 @@
 
 ### 5. Basics of Asynchronous Programming in Node.js
 
-- [ ] The basic concept of asynchronous program
-- [ ] Illustrating the async programming model
-- [ ] Call stack and event loop
-- [ ] A synchronous program example
-- [ ] The call stack
-- [ ] Running the synchronous program
-- [ ] A complex synchronous program example
-- [ ] An async program example
-- [ ] The Node API in async programming
-- [ ] The callback queue in async programming
-- [ ] The event loop
-- [ ] Running the async code
-- [ ] Callback functions and APIs
-- [ ] The callback function
-- [ ] Creating the callback function
-- [ ] Running the callback function
-- [ ] Simulating delay using setTimeout
-- [ ] Making request to Geolocation API
-- [ ] Using Google Maps API data in our code
-- [ ] Installing the request package
-- [ ] Using request as a function
-- [ ] Running the request
-- [ ] Pretty printing objects
-- [ ] Using the body argument
-- [ ] Making up of the HTTPS requests
-- [ ] The response object
-- [ ] The error argument
-- [ ] Printing data from the body object
-- [ ] Printing the formatted address
-- [ ] Printing latitude and longitude
-- [ ] Summary
+- [x] The basic concept of asynchronous program
+- [x] Illustrating the async programming model
+- [x] Call stack and event loop
+- [x] A synchronous program example
+- [x] The call stack
+- [x] Running the synchronous program
+- [x] A complex synchronous program example
+- [x] An async program example
+- [x] The Node API in async programming
+- [x] The callback queue in async programming
+- [x] The event loop
+- [x] Running the async code
+- [x] Callback functions and APIs
+- [x] The callback function
+- [x] Creating the callback function
+- [x] Running the callback function
+- [x] Simulating delay using setTimeout
+- [x] Making request to Geolocation API
+- [x] Using Google Maps API data in our code
+- [x] Installing the request package
+- [x] Using request as a function
+- [x] Running the request
+- [x] Pretty printing objects
+- [x] Using the body argument
+- [x] Making up of the HTTPS requests
+- [x] The response object
+- [x] The error argument
+- [x] Printing data from the body object
+- [x] Printing the formatted address
+- [x] Printing latitude and longitude
+- [x] Summary<br/>**\***`NOTA: pag.405 04/07/208 22:07 terminada esta seccion.`**\***
       <br/>[Go Up](#learning-nodejs-development)
 
 ### 6. Callbacks in Asynchronous Programming
