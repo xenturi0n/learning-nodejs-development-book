@@ -201,7 +201,7 @@
 - [x] Printing the formatted address
 - [x] Printing latitude and longitude
 - [x] Summary<br/>**\***`NOTA: pag.405 04/07/208 22:07 terminada esta seccion.`**\***
-<br/>**\***`NOTA: pag.426 06/07/208 22:07 avance hasta el momento todavia no esta terminada la seccion.`**\***
+<br/>**\***`NOTA: pag.426 06/07/208 22:07 avance hasta el momento todavia no esta terminada la seccion. TODO: Estudiar GOOGLE API`**\***
       <br/>[Go Up](#learning-nodejs-development)
 
 ### 6. Callbacks in Asynchronous Programming
