@@ -201,32 +201,33 @@
 - [x] Printing the formatted address
 - [x] Printing latitude and longitude
 - [x] Summary<br/>**\***`NOTA: pag.405 04/07/208 22:07 terminada esta seccion.`**\***
-<br/>**\***`NOTA: pag.426 06/07/208 22:07 avance hasta el momento todavia no esta terminada la seccion. TODO: Estudiar GOOGLE API`**\***
+      <br/>**\***`NOTA: pag.426 06/07/208 22:07 avance hasta el momento todavia no esta terminada la seccion. TODO: Estudiar GOOGLE API`**\***
+      <br/>**\***`NOTA: pag.447 07/07/208 19:19 terminada la seccion.`**\***
       <br/>[Go Up](#learning-nodejs-development)
 
 ### 6. Callbacks in Asynchronous Programming
 
-- [ ] Encoding user input
-- [ ] Installing yargs
-- [ ] Configuring yargs
-- [ ] Printing the address to screen
-- [ ] Encoding and decoding the strings
-- [ ] Encoding URI component
-- [ ] Decoding URI component
-- [ ] Pulling the address out of argv
-- [ ] Callback errors
-- [ ] Checking error in Google API request
-- [ ] Adding the if statement for callback errors
-- [ ] Adding if else statement to check body status property
-- [ ] Testing the body status property
-- [ ] Abstracting callbacks
-- [ ] Refactoring app.js and code into geocode.js file
-- [ ] Working on request statement
-- [ ] Creating geocode file
-- [ ] Adding callback function to geocodeAddress
-- [ ] Setting up the function in geocodeAddress function in app.js
-- [ ] Implementing the callback function in geocode.js file
-- [ ] Testing the callback function in geocode.js file
+- [x] Encoding user input
+- [x] Installing yargs
+- [x] Configuring yargs
+- [x] Printing the address to screen
+- [x] Encoding and decoding the strings
+- [x] Encoding URI component
+- [x] Decoding URI component
+- [x] Pulling the address out of argv
+- [x] Callback errors
+- [x] Checking error in Google API request
+- [x] Adding the if statement for callback errors
+- [x] Adding if else statement to check body status property
+- [x] Testing the body status property
+- [x] Abstracting callbacks
+- [x] Refactoring app.js and code into geocode.js file
+- [x] Working on request statement
+- [x] Creating geocode file
+- [x] Adding callback function to geocodeAddress
+- [x] Setting up the function in geocodeAddress function in app.js
+- [x] Implementing the callback function in geocode.js file
+- [x] Testing the callback function in geocode.js file<br/>**\***`NOTA: pag.486 07/07/208 21:21 progreso hasta el momento, TODO: estudiar mas acereca de la API de GeoCodificacion de Google.`**\***
 - [ ] Wiring up weather search
 - [ ] Exploring working of API in the browser
 - [ ] Exploring the actual URL for code
