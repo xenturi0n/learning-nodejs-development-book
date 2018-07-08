@@ -227,7 +227,7 @@
 - [x] Adding callback function to geocodeAddress
 - [x] Setting up the function in geocodeAddress function in app.js
 - [x] Implementing the callback function in geocode.js file
-- [x] Testing the callback function in geocode.js file<br/>**\***`NOTA: pag.486 07/07/208 21:21 progreso hasta el momento, TODO: estudiar mas acereca de la API de GeoCodificacion de Google.`**\***
+- [x] Testing the callback function in geocode.js file<br/>**\***`NOTA: pag.486 07/07/208 21:21 progreso hasta el momento, TODO: estudiar la api de`[OpenWeatherMap](https://openweathermap.org/api)**\***
 - [ ] Wiring up weather search
 - [ ] Exploring working of API in the browser
 - [ ] Exploring the actual URL for code
