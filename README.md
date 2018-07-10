@@ -228,27 +228,27 @@
 - [x] Setting up the function in geocodeAddress function in app.js
 - [x] Implementing the callback function in geocode.js file
 - [x] Testing the callback function in geocode.js file<br/>**\***`NOTA: pag.486 07/07/208 21:21 progreso hasta el momento, TODO: estudiar la api de`[OpenWeatherMap](https://openweathermap.org/api)**\***
-- [ ] Wiring up weather search
-- [ ] Exploring working of API in the browser
-- [ ] Exploring the actual URL for code
-- [ ] Making a request for the weather app using the static URL
-- [ ] Error handling in the the callback function
-- [ ] Another way of error handling
-- [ ] Testing the error handling in callback
-- [ ] Chaining callbacks together
-- [ ] Refactoring our request call in weather.js file
-- [ ] Defining the new function getWeather in weather file
-- [ ] Providing weather directory in app.js
-- [ ] Passing the arguments in the getWeather function
-- [ ] Printing errorMessage in the getWeather function
-- [ ] Implementing getWeather callback inside weather.js file
-- [ ] Adding dynamic latitude and longitude
-- [ ] Changing console.log calls into callback calls
-- [ ] Chaining the geocodeAddress and getWeather callbacks together
-- [ ] Moving getWeather call into geocodeAddress function
-- [ ] Replacing static coordinates with dynamic coordinates
-- [ ] Testing the chaining of callbacks
-- [ ] Summary
+- [x] Wiring up weather search
+- [x] Exploring working of API in the browser
+- [x] Exploring the actual URL for code
+- [x] Making a request for the weather app using the static URL
+- [x] Error handling in the the callback function
+- [x] Another way of error handling
+- [x] Testing the error handling in callback
+- [x] Chaining callbacks together
+- [x] Refactoring our request call in weather.js file
+- [x] Defining the new function getWeather in weather file
+- [x] Providing weather directory in app.js
+- [x] Passing the arguments in the getWeather function
+- [x] Printing errorMessage in the getWeather function
+- [x] Implementing getWeather callback inside weather.js file
+- [x] Adding dynamic latitude and longitude
+- [x] Changing console.log calls into callback calls
+- [x] Chaining the geocodeAddress and getWeather callbacks together
+- [x] Moving getWeather call into geocodeAddress function
+- [x] Replacing static coordinates with dynamic coordinates
+- [x] Testing the chaining of callbacks
+- [x] Summary<br/>**\***`NOTA: pag.524 09/07/208 19:50 Terminada esta seccion, bien asentado el conocimiento de callbacks.`**\***
       <br/>[Go Up](#learning-nodejs-development)
 
 ### 7. Promises in Asynchronous Programming
