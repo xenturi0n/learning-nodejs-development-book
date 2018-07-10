@@ -253,31 +253,31 @@
 
 ### 7. Promises in Asynchronous Programming
 
-- [ ] Introduction to ES6 promises
-- [ ] Creating an example promise
-- [ ] Calling the promise method then
-- [ ] Running the promise example in Terminal
-- [ ] Error handling in promises
-- [ ] Merits of promises
-- [ ] Advanced promises
-- [ ] Providing input to promises
-- [ ] Returning the promises
-- [ ] Promise chaining
-- [ ] Error handling in promises chaining
-- [ ] The catch method
-- [ ] The request library in promises
-- [ ] Testing the request library
-- [ ] Weather app with promises
-- [ ] Fetching weather app code from the app.js file
-- [ ] Axios documentations
-- [ ] Installing axios
-- [ ] Making calls in the app-promise file
-- [ ] Making axios request
-- [ ] Error handling in axios request
-- [ ] Error handling with ZERO_RESULT body status
-- [ ] Generating the weather URL
-- [ ] Chaining the promise calls
-- [ ] Summary
+- [x] Introduction to ES6 promises
+- [x] Creating an example promise
+- [x] Calling the promise method then
+- [x] Running the promise example in Terminal
+- [x] Error handling in promises
+- [x] Merits of promises
+- [x] Advanced promises
+- [x] Providing input to promises
+- [x] Returning the promises
+- [x] Promise chaining
+- [x] Error handling in promises chaining
+- [x] The catch method
+- [x] The request library in promises
+- [x] Testing the request library
+- [x] Weather app with promises
+- [x] Fetching weather app code from the app.js file
+- [x] Axios documentations
+- [x] Installing axios
+- [x] Making calls in the app-promise file
+- [x] Making axios request
+- [x] Error handling in axios request
+- [x] Error handling with ZERO_RESULT body status
+- [x] Generating the weather URL
+- [x] Chaining the promise calls
+- [x] Summary<br/>**\***`NOTA: pag.578 10/07/208 03:05 Terminada esta seccion, TODO: Estudiar Servidores con Node y protocolo HTTP.`**\***
       <br/>[Go Up](#learning-nodejs-development)
 
 ### 8. Web Servers in Node
