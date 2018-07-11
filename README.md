@@ -279,6 +279,8 @@
 - [x] Chaining the promise calls
 - [x] Summary<br/>**\***`NOTA: pag.578 10/07/208 03:05 Terminada esta seccion, TODO: Estudiar Servidores con Node y protocolo HTTP.`**\***
       <br/>[Go Up](#learning-nodejs-development)
+      <br/>**\***`NOTA: iniciando con el modulo HTTP de node. TODO: practicar con el modulo http`**\***
+      <br/>[Go Up](#learning-nodejs-development)
 
 ### 8. Web Servers in Node
 
